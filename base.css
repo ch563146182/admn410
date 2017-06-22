@@ -1,0 +1,94 @@
+.main{
+    margin:0 auto;
+    width:1050px;
+    min-height:400px;
+}
+
+.nav ul{
+    background-color: red;
+    position: relative;
+    float: left;
+    list-style: none;
+}
+
+.nav > ul > li{
+    float:left;
+    display: block;
+    width:200px;
+    height:30px;
+}
+
+.nav > ul > li > a{
+    line-height:200%;
+    text-decoration: none;
+}
+
+div.footer{
+    text-align: center;
+    margin: 0 auto;
+    text-align: center;
+}
+div.footer > p {
+    color:#333;
+    line-height: 22px;
+}
+div.content{
+    margin:0 15px;
+    color: #666;
+    min-height: 400px;
+}
+
+
+div.content div{
+    font-size: 12px;
+    line-height: 26px;
+}
+
+div.footer{
+    color: #666;
+    font-size: 12px;
+    line-height: 26px;
+}
+
+.logo{
+    height:200px;
+    background: url("./img/pet-header.jpg") no-repeat;
+    background-size:100%;
+}
+
+.logo h2{
+    text-align: center;
+    padding-top:25px;
+    font-size:32px;
+}
+
+img.employee{
+    width:443px;
+    height:267px;
+    display:inline-block;
+}
+
+
+div.img {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 300px;
+    height:200px;
+}
+
+div.img:hover {
+    border: 1px solid #777;
+}
+
+div.img img {
+    height: auto;
+    width: 300px;
+    height:200px;
+}
+
+div.desc {
+    padding: 15px;
+    font-weight: bold;
+    text-align: center;
+}
