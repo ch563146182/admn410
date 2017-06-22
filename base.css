@@ -52,7 +52,7 @@ div.footer{
 
 .logo{
     height:200px;
-    background: url("./img/pet-header.jpg") no-repeat;
+    background: url("pet-header.jpg") no-repeat;
     background-size:100%;
 }
 
